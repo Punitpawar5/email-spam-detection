@@ -2,6 +2,8 @@
 
 This repository contains a machine learning project aimed at detecting whether an email is **spam** or **ham** (not spam). The project uses multiple classifiers like **Logistic Regression**, **Support Vector Machines (SVM)**, **Naive Bayes**, and **Random Forest** to classify emails. After training and testing, the models are compared based on accuracy, precision, recall, and F1-score.
 
+![Demo](https://github.com/Punitpawar5/email-spam-detection/blob/main/demo.png)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
@@ -72,23 +74,17 @@ To run the project locally, follow these steps:
 ## Usage
 Once the project is set up, you can run the code to train the models and evaluate performance.
 
-1. **Train models**:
-   You can run the main script to train all models and print their performance metrics:
-   ```bash
-   python train_models.py
+```bash
+   python email-spam-detection.ipynb
    ```
+1. **Train models**:
+   You can run the main script to train all models and print their performance metrics.
 
 2. **Fine-tuning**:
-   You can run the fine-tuning script to optimize hyperparameters using GridSearchCV:
-   ```bash
-   python fine_tune.py
-   ```
+   You can run the fine-tuning script to optimize hyperparameters using GridSearchCV.
 
 3. **Test a custom email**:
-   After training, you can use the trained model to classify a custom email:
-   ```bash
-   python classify_email.py "Your email content goes here"
-   ```
+   After training, you can use the trained model to classify a custom email.
 
 ## Results
 After training and testing, the models achieved the following results on the test dataset:
@@ -120,11 +116,12 @@ param_grid_rf = {
 ```
 
 ## Technologies Used
-- **Python 3.x**
+- **Python 3.8.8**
 - **Pandas** for data manipulation
 - **Scikit-learn** for model building and evaluation
 - **TfidfVectorizer** for text representation
 - **Matplotlib / Seaborn** for visualization
+- **Streamlit** for Deployment 
 
 ## Contributing
 Contributions are welcome! If you'd like to improve the project or add new features, feel free to fork the repository and submit a pull request.
@@ -151,8 +148,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Screenshots:
 #### Ham message example
-https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(223).png
+![Demo](https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(223).png)
 
 #### Spam message example
-https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(224).png
+![Demo](https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(224).png)
 ---
