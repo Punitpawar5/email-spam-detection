@@ -149,7 +149,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### Screenshots / Visuals (Optional):
-You could add a few visuals here, like a confusion matrix or performance charts to make the README more interactive.
+### Screenshots:
+#### Ham message example
+https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(223).png
 
+#### Spam message example
+https://github.com/Punitpawar5/email-spam-detection/blob/main/Screenshot%20(224).png
 ---
